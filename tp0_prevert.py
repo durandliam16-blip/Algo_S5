@@ -9,4 +9,5 @@ with open('data_inventaire_prevert.txt ', "r") as infile: # ouverture du fichier
 with open('inventaire_prevert.txt', "w") as outfile:# ouverture du fichier (w: write)
     for i in ligne_data:
         outfile.write(i) # ´ecriture des donn´ees dans le fichier
+
         outfile.write("\n")
